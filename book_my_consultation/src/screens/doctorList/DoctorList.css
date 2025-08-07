@@ -1,0 +1,67 @@
+.doctor-list-container {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .filter-dropdown {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .doctor-card {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .view-details {
+    margin-left: 20px;
+    background-color: green !important;
+  }
+  
+  .appointment-modal {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .appointment-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .doctor-details-container {
+    text-align: left;
+    margin: 15px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  .dialog-header {
+    background-color: purple;
+    height: 70px;
+    padding: 11px;
+    color: white;
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 80%;
+  }

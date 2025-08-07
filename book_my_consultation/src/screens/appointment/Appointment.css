@@ -1,0 +1,118 @@
+/* Center the content */
+.appointment-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.appointment-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+.appointment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.appointment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #1976d2;
+    border-radius: 5px;
+}
+
+/* Doctor name styling */
+.doctor-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Appointment details */
+.appointment-info {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Cancel button */
+.cancel-button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cancel-button:hover {
+    background-color: #b71c1c;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .appointment-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cancel-button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .card-header {
+    background-color: purple;
+    height: 30px;
+    padding: 11px;
+    color: white;
+    text-align: center;
+  }
+  
+  .rating-container {
+    margin-top: 15px;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .rate-button {
+    margin-top: 40px;
+    background-color: rgb(37, 13, 110) !important;
+    color: white!important;
+    width: 60%;
+    text-align: left;
+  }
+  
+  

@@ -1,0 +1,59 @@
+/* General Header Styles */
+.header {
+  background-color: purple;
+  height: 30px;
+  display: flex;
+  justify-content: space-between; /* Ensures left and right elements are separated */
+  align-items: center;
+  padding: 11px 20px;
+}
+
+/* Flex container for logo and title */
+.header-left {
+  display: flex;
+  align-items: center; /* Aligns logo and text in a row */
+  flex: 1; /* Allows this section to take up space, ensuring proper alignment */
+}
+
+/* Logo Styles */
+.logo {
+  height: 35px;
+  border-radius: 4px;
+  margin-right: 10px; /* Adds spacing between logo and text */
+}
+
+/* Header Title Styles */
+.header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+.logout-button {
+  background-color: rgba(221, 42, 78, 0.842) !important; /* Force background color to red */
+  color: white !important; /* Ensure text remains white */
+}
+/* Modal Styles */
+.modal-box {
+  background-color: white;
+  width: 400px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2px;
+}
+.auth-header {
+  background-color: #6a007c; /* Matches tab background */
+  color: white;
+  height: 60px;
+  font-size: 12px;
+  text-align: left; /* Align text to right */
+  width: 100%;
+  display: flex;      /* Enables flexbox */
+  justify-content: flex-start; /* Forces content to left */ /* Make it full width */
+}
+/* Tab Content */
+.tab-content {
+  margin-top: 20px;
+}
